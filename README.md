@@ -13,6 +13,8 @@ The Socio Micro Services Project will consist of about 10 small (backend) Spring
 
 Next you`ll find four serving application. The simple SocioWeather, provides the weather-report by city. SocioBank, permits money transaction between Socios. The SocioSecurity, a Cookie/ Token based SpringSecurity (OAUTH2), still has to be written. Finally the SocioDbBatch application is interesting. It will update, on a daily bases, the databases of SocioRegister (socio_db) and SocioBank (soicio_bank_db). The DBs run on MySQL or Postgres.
 
+
+
 Specific Info SocioRegister-starter
 
-This application would be theone to start revising first.
+This application would be the one to start revising first.
