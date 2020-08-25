@@ -1,6 +1,6 @@
 package com.artsgard.socioregister.controller;
 
-import com.artsgard.socioregister.controller.SinglepageController;
+import com.artsgard.socioregister.controller.SocioController;
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -19,8 +19,8 @@ import org.springframework.test.web.servlet.MvcResult;
  * @author WillemDragstra
  */
 @ExtendWith(SpringExtension.class)
-@WebMvcTest(SinglepageController.class)
-public class SinglePageControllerTest {
+@WebMvcTest(SocioController.class)
+public class SocioControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
@@ -33,6 +33,6 @@ public class SinglePageControllerTest {
                 .andExpect(status().isOk()).andReturn();
         String content = result.getResponse().getContentAsString();
        
-        assertThat("single page application starter").isEqualTo(content);
+        assertThat("Socio Starter").isEqualTo(content);
     }
 }

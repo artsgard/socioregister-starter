@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/socio")
-public class SinglepageController {
+public class SocioController {
     
     @GetMapping(path = "/starter")
     public ResponseEntity<?> starter() {
-        return new ResponseEntity<>("single page application starter", HttpStatus.OK);
+        return new ResponseEntity<>("Socio Starter", HttpStatus.OK);
     }
 }
