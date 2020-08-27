@@ -39,7 +39,11 @@ First note the file-folder tree: root: pom.xml src -> main test. In each main an
 
 Than turn to the Maven pom.xml, the key part of a Springboot app, and note the important Springboot part within 
 
-<parent></parent>. 
+ <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.2.RELEASE</version>
+ </parent>
 
 Also note the Springboot plugin at the end.
 
