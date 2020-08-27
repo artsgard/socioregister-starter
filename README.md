@@ -37,15 +37,7 @@ This application would be the one to start revising first. This Starter applicat
 
 First note the file-folder tree: root: pom.xml src -> main test. In each main and test one finds a java folder and one may find a resources folder (in test not always).
 
-Than turn to the Maven pom.xml, the key part of a Springboot app, and note the important Springboot part within 
-
- <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.2.RELEASE</version>
- </parent>
-
-Also note the Springboot plugin at the end.
+Than turn to the Maven pom.xml, the key part of a Springboot app, and note the important Springboot part within the parent tags. Also note the Springboot plugin at the end.
 
 The socalled starter-dependencies (here only two: web and test) are essential for a boot app. You should certainly look into this part and its "auto-config", the main principle of a Springboot app.
 
