@@ -45,7 +45,7 @@ First note the file-folder tree: root:
 			(resources) <- for test resources, rarely used
 		  
 
-# pom-xml		  
+### pom-xml		  
 Than turn to the Maven pom.xml, the key part of a Springboot app, and note the important Springboot part within the parent tags. Also note the Springboot plugin at the end.
 
 The socalled starter-dependencies (here only two: web and test) are essential for a boot app. You should certainly look into this part and its "auto-config", the main principle of a Springboot app.
