@@ -35,8 +35,18 @@ Specific Info SocioRegister-starter =====================================
 
 This application would be the one to start revising first. This Starter application is basicaly an empty shell. One may use applications like Spring Initializr to generate the code, but I prefer to do it manually.
 
-First note the file-folder tree: root: pom.xml src -> main test. In each main and test one finds a java folder and one may find a resources folder (in test not always).
+First note the file-folder tree: root:
 
+	src--- main---java <- java code: com.artsgard.etc
+		  |		  |
+		  |		  resoureces
+		  test ---java <- javatest code: com.artsgard.etc
+				  |
+				  (resoureces) <- for test resources, rarely used
+		  
+
+pom-xml
+		  
 Than turn to the Maven pom.xml, the key part of a Springboot app, and note the important Springboot part within the parent tags. Also note the Springboot plugin at the end.
 
 The socalled starter-dependencies (here only two: web and test) are essential for a boot app. You should certainly look into this part and its "auto-config", the main principle of a Springboot app.
