@@ -46,9 +46,30 @@ First note the file-folder tree:
 		  
 
 ### pom-xml		  
-Than turn to the Maven pom.xml, the key part of a Springboot app, and note the important Springboot part within the parent tags. Also note the Springboot plugin at the end.
+The Maven pom.xml, a key part of a Springboot app. Note the important Springboot part within the parent tags. 
 
-The socalled starter-dependencies (here only two: web and test) are essential for a boot app. You should certainly look into this part and its "auto-config", the main principle of a Springboot app.
+	<parent>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.2.RELEASE</version>
+	
+    </parent>
+
+Next you'll find the principle web dependency called spring-boot-starter-web:
+
+	<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+	
+Also note the Springboot plugin at the end:
+
+	<plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+	   
+The socalled starter-dependencies (here only two: web and test) are essential for a boot app. You should certainly look into this part and Sprinboot's "auto-config" concept, another key principle of a Springboot app.
 
 The SocioRegisterApplication´s main method is the classical Springboot-application starter. The second class: SocioController prints "Socio Starter" on your screen when using the url: http://localhost:8081/socio/starter (find the port config at resources/application.properties which Spring will read because of auto-config).
 
