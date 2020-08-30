@@ -35,7 +35,7 @@ Testing is still "work in progress"
 
 This application would be the one to start revising first. This Starter application is basicaly an empty shell. One may use applications like Spring Initializr to generate the code, but I prefer to do it manually.
 
-First note the file-folder tree: root:
+First note the file-folder tree:
 
 	src-----main ---java <- java code: com.artsgard.etc
 		|	|
