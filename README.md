@@ -7,7 +7,7 @@ A Springboot REST application to register and add Socios (first step, empty Spri
 
 
 
-General Info =====================================
+## General Info =====================================
 
 The Socio Micro Services Project will consist of about 10 small (backend) Springboot applications, deployed in a Docker Container/ Linux Oracle Virtual Box. SocioRegister is the principal part of a series of four applications called: starter, mock, jpa, socioregister. Together they show a stepwise buildup to a Springboot REST application, which contains use-cases for registering and adding Socios (similar to Facebook). This line of applications goes from an almost empty Springboot shell (starter: one controller method only) to a small but full-fledged REST application: SocioRegister which will be used as a component of our micro-services.
 
@@ -31,7 +31,7 @@ Testing is still "work in progress"
 
 
 
-Specific Info SocioRegister-starter =====================================
+## Specific Info SocioRegister-starter =====================================
 
 This application would be the one to start revising first. This Starter application is basicaly an empty shell. One may use applications like Spring Initializr to generate the code, but I prefer to do it manually.
 
