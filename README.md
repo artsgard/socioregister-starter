@@ -60,14 +60,14 @@ Next you'll find the principle web dependency called spring-boot-starter-web:
 	<dependency>
         	<groupId>org.springframework.boot</groupId>
         	<artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+	</dependency>
 	
 Also note the Springboot plugin at the end:
 
 	<plugin>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-maven-plugin</artifactId>
-</plugin>
+	</plugin>
 	   
 The socalled starter-dependencies (here only two: web and test) are essential for a boot app. You should certainly look into this part and Sprinboot's "auto-config" concept, another key principle of a Springboot app.
 
