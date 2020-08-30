@@ -37,12 +37,12 @@ This application would be the one to start revising first. This Starter applicat
 
 First note the file-folder tree: root:
 
-	src-main ---java <- java code: com.artsgard.etc
-		|		|
-		|		resoureces
+	src-----main ---java <- java code: com.artsgard.etc
+		|	|
+		|	resoureces
 		test ---java <- javatest code: com.artsgard.etc
-				|
-				(resoureces) <- for test resources, rarely used
+			|
+			(resoureces) <- for test resources, rarely used
 		  
 
 pom-xml
