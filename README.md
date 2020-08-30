@@ -51,9 +51,8 @@ The Maven pom.xml, a key part of a Springboot app. Note the important Springboot
 	<parent>
         	<groupId>org.springframework.boot</groupId>
         	<artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.2.RELEASE</version>
-	
-    </parent>
+        	<version>2.2.2.RELEASE</version>
+	</parent>
 
 Next you'll find the principle web dependency called spring-boot-starter-web:
 
