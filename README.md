@@ -1,4 +1,4 @@
-# 1) socioregister-starter
+#  1) socioregister-starter
 1) A Springboot REST application to register and add Socios (first step, empty Springboot shell, the starter part)
 
 1) General Info About the Socio-Micro-Service-Demo
